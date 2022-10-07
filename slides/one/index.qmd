@@ -117,7 +117,7 @@ search: false
 
 ---
 
-<video data-autoplay src="../../vids/ACN_pfd_c1.mp4" controls="true" data-preload style="width:100%; height:100%"></video>
+<video data-autoplay src="https://github.com/edibotopic/proFracLab/raw/master/vids/ACN_pfd_c1.mp4" controls="true" data-preload style="width:100%; height:100%"></video>
 
 ---
 
@@ -149,7 +149,7 @@ search: false
 
 ---
     
-<video data-autoplay src="../../vids/pro_frac_vid_c1.mp4" controls="true" style="width: 100%; height: 100%;" data-preload></video>
+<video data-autoplay src="https://github.com/edibotopic/proFracLab/raw/master/vids/pro_frac_vid_c1.mp4" controls="true" style="width: 100%; height: 100%;" data-preload></video>
 
 ---
 
