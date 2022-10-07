@@ -1,0 +1,24 @@
+---
+title: Appendix 
+slide-format: revealjs
+css: ../styles.css
+execute:
+  echo: false
+search: true
+---
+
+::: {.callout-warning}
+
+## Checklist
+
+- Pre-practical talk attended
+- Practical work completed
+- Notes and slides reviewed
+- Virtual demos reviewed
+- Lab report completed and submitted
+
+:::
+
+If you have any questions about the material please contact:
+
+[shane.crowley@ucc.ie](mailto: shane.crowley@ucc.ie)

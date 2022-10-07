@@ -1,0 +1,59 @@
+---
+title: Enzymatic Precipitation 
+slide-format: revealjs
+css: ../styles.css
+execute:
+  echo: false
+search: true
+---
+
+::: {.callout-warning}
+
+## Next Practical
+
+The next practical is dedicated to the principles underlying the rennet coagulation of milk, so only a brief outline of the principles as they pertain to
+ingredient development will be provided here.
+:::
+
+The basic process for making rennet casein broadly resembles that of acid
+casein.
+Both could be described `in general` as follows:
+
+- Warming of milk
+- Addition of coagulant
+- Cooking/incubation
+- Whey separation
+- Washing
+- Drying
+
+The coagulation in this case relies on the proteolytic activity of rennet, or more specifically chymosin, the main proteolytic enzyme present in rennet.
+When milk is renneted the $\kappa$-casein at the surface of the casein micelles is hydrolysed, releasing the hydrophilic fragment of this casein molecule into the serum phase.
+This phenomenon is more rapid at a temperature of 32°C because this is the optimal temperature of the enzymes involved.
+Incubation at this temperature for about 15−20 minutes is required to release around 80% of the $\kappa$-casein into the serum, which is sufficient for destabilisation and coagulation of the casein.
+
+Following coagulation the temperature if typically elevated to 60°C for two reasons:
+
+1. Deactivation of enzymes (to prevent quality loss during production)
+2. Promotion of coagulation (by enhancing hydrophobic interactions be-
+tween caseins)
+
+If only a weak coagulum is formed during this stage then the separation
+of curds and whey won’t be efficient, i.e., there will be transfer of fine casein curd particles into the whey.
+This is why in both acid casein and rennet casein manufacture it is essential to promote curd fusion in a cooking step.
+There is no equivalent to sodium caseinate for rennet casein - alkalising rennet casein with something like sodium hydroxide would be ineffective because pH wasn’t responsible for the solubility change in the first place.
+
+|   |Acid Casein   | Rennet Casein   | Sodium Caseinate  |
+|---|---|---|---|
+|Soluble in   | alkali  | chelator  | water  |
+|[CCP]   | low   | high  | low  |
+|[Sodium]   | low   | low   | high   |
+|Application   | precursor   | cheese analogues   | various   |
+
+Rennet casein is used as is in the manufacture of cheese analogues, but this application does require solubilisation to be carried out in a different manner.
+In analogue cheese dissolved rennet casein functions to emulsify oil droplets and form a cohesive cheese-like mass.
+To solubilise rennet casein so-called ”emulsifying salts” are used.
+This term is a bit confusing, as the salts do not emulsify the casein but rather modify the casein so that the casein can function as an emulsifier.
+The emulsifying salts are typically calcium chelators,
+like trisodium citrate, which bind to calcium ions from the rennet casein, upsetting the delicate equilibrium between the calcium in the CCP and in the serum phase.
+Ultimately, the CCP is completely dissolved, which seems to reduce the integrity of the insoluble rennet casein particles (you will see
+this process in action in a later lab.)

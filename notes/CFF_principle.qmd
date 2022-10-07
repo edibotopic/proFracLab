@@ -1,0 +1,145 @@
+---
+title: Membrane Separation 
+slide-format: revealjs
+css: ../styles.css
+execute:
+  echo: false
+search: true
+---
+
+Virtually all of the proteins present in either milk or whey can be recovered using ultrafiltration.
+The ’molecular weight cut-off’ (MWCO) determines which molecules will be blocked from passing through the membrane.
+The smallest protein in both cases is α−lactalbumin, which has a MW of
+14 kDa.
+It is thus sufficient to select a MWCO that will ensure that this
+smallest protein does not permeate, as it follows logically that the larger proteins will not permeate if this condition is met.
+In the dairy industry the term ”ultrafiltration” can often be taken to refer to a filtration process in which all of the proteins are recovered.
+
+There are three streams to consider during any filtration process: the
+feed, retentate and permeate.
+During filtration the feed is separated into the
+retentate and permeate.
+In a benchtop process the retentate is commonly
+recirculated back to the feed, which becomes increasingly concentrated over
+time.
+As permeate volume ($P_V$) increases the feed volume ($F_V$) decreases.
+Typically there is a target volume concentration factor ($VCF$) that can be used to estimate the increase in protein content in the feed but also to set a limit on the process:
+
+$$VCF = \frac{F_v}{F_v - P_v}$$
+
+Hence, if you start with $1 \ L$ of feed, generate $670 \ mL$ of permeate you will have achieved a $VCF$ of $3×$.
+If the starting protein concentration was
+$3\%$ the concentration afterwards would be roughly $3 \ × \ 3 = 9$.
+An efficient filtration process is one that has a high permeate flux that
+is sustainable over time.
+Flux is the flow-rate of permeate per unit of mem-
+brane area and typically has the units $L \ m^{−2} \ h^{−1}$.
+
+::: {.callout-tip}
+
+## Converting Flow Data
+
+Consider that you have measured $10 \ mL$ of permeate in $30 \ seconds$ and the membrane area used was $0.1 \ m^2$:
+
+**$mL$ to $L$** : 10 ÷ 1000 = 0.01
+
+**$L \ 30s^{−1}$ to $L \ h^{−1}$** : 0.01 × 2 × 60 = 1.2
+
+**$L h^{−1}$ to $L \ m^{−2} \ h^{−1}$** : 1.2 ÷ 0.1 = 12
+
+The answer is:
+
+$$12 \ L \ m^{-2} \ h^{-1}$$
+:::
+
+::: {.callout}
+
+## Permeate Viscosity
+
+The viscosity of permeate generated during the ultrafiltration of milk or whey is low (similar to water).
+However, minor changes in permeate viscosity associated with temperature can have a significant effect on permeate flux.
+
+<div>
+```{=html}
+<video autoplay loop class="video-embed" src=../vids/low_viscosity.mp4></video>
+```
+</div>
+
+:::
+
+Most membrane operations in the dairy industry involve cross-flow filtration, which is distinct from the dead-end filtration that you are familiar with from your laboratories.
+In the lab when you are normally filtering a solution the feed liquid flows perpendicularly towards the membrane surface
+(think about it for a moment).
+While this works fine in the lab for small
+solutions it is often impractical at a commercial scale. The reason is fouling, the deposition of material on the surface of the membrane over time, which reduces the rate at which the liquid permeates the membrane and, thus, the
+speed of the process.
+In cross-flow filtration the feed liquid flows across or
+parallel to the membrane surface.
+If the pump is set to a value that ensures
+that the feed liquid is flowing with a high velocity then material that would normally deposit on the membrane surface will be continuously removed.
+This works pretty well and gives far superior performance to perpendicular flow; however, it isn’t perfect and gradual fouling is still a problem, making this an ongoing issue in dairy processing.
+When attempting to develop strategies to maximise permeate flux it is
+useful to consider Darcy’s equation:
+
+$$J = \frac{TMP}{\mu \cdot R}$$
+
+$J$ signifies flux (probably because $F$ is taken), $TMP$ stands for **T**rans **M**embrane **P**ressure, $µ$ for permeate viscosity and $R$ for hydraulic resis-
+tance.
+To generate permeate a pressure drop must exist from the feed-side to the permeate-side, which is done by closing a valve on the feed-side at the
+retentate line.
+Ideally, the highest TMP should be chosen in the pressure-
+dependant region of the J−TMP curve; this means that if you adjusted the
+pressure in stepwise increments you would find a linear region that eventually transitions into a plateau - the idea is to select the TMP before that plateau is reached, as the plateau is associated with high degrees of fouling.
+Permeate viscosity is easy to manipulate.
+Most liquids decrease in viscosity as temperature increases, as the increased thermal energy is converted
+into kinetic energy that allows the molecules to move with more freedom.
+This is true unless a qualitative change occurs, such as when proteins aggregate to form larger structures that impart different viscosity properties.
+For these reasons a temperature ≈ 50°C has been common for filtration processes in the dairy industry (not too low, not too high).
+Declines in flux during filtration are common and typically caused by
+fouling of the membrane surface. The results in an increase in hydraulic
+resistance ($R$ in Darcy’s equation).
+Fouling is a complex phenomenon which can be simply understood as the deposition of molecules at the surface of
+the membrane and, in some cases, inside the membrane pores themselves.
+An advantage of cross-flow filtration is that the feed material moves across the membrane surface during pumping, which contributes to the continuous removal of the fouling layer during filtration - this is not perfect, however.
+
+::: {.callout}
+
+## Retentate Viscosity
+
+Retentate viscosity can increase substantially during ultrafiltration due to the concentration of protein.
+The increase viscosity can reduce cross-flow velocity and turbulence, which can contribute to fouling.
+
+<div>
+```{=html}
+<video autoplay loop class="video-embed" src=../vids/high_viscosity.mp4></iframe>
+```
+</div>
+
+:::
+
+A somewhat counter-intuitive finding in recent years is that operating
+filtration plants at close to refrigeration temperatures can have benefits for ensuring more sustainable flux values.
+The mechanism behind this is unclear at this point but what is apparent is that sacrificing the high initial fluxes
+associated with warm filtration can result in longer process runs, less down-time and reduced cleaning costs.
+It is not all good news, however, as larger pumps may be required to handle the more viscous feed material and there may also be associated refrigeration costs. Thus, there are trade-offs.
+
+An interactive 3D model of the benchtop filtration system
+used at UCC can be found below:
+
+<div class="sketchfab-embed-wrapper"> <iframe style="width: 100%; height: 350px" title="Membrane Filtration Device (v0.1)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/e65e9fd49e8b47f7a2a117d3135e7297/embed?ui_theme=dark&dnt=1"> </iframe> </div>
+
+A real-life demonstration can also be found on Canvas.
+
+::: {.callout-tip}
+
+## Anti-fouling
+
+Membrane fouling is a continued problem in the dairy industry. Scientists and engineers are investigating multiple approaches to minimise
+this phenomenon, such as:
+
+-  Spacer meshes that promote internal turbulence
+-  Membrane polymers that repel depositing molecules
+-  Ultrasonicators that actively disrupt fouled material
+-  Low temperature operation for longer run times
+
+:::

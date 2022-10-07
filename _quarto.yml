@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Protein Fractionation Lab"
+  page-footer: "Copyright 2022, Shane Crowley" 
+  reader-mode: false
+  page-navigation: true
+  sidebar:
+    style: 'floating'
+    search: true
+    contents:
+      - index.qmd
+      - notes/ACN_principle.qmd 
+      - notes/RCN_principle.qmd
+      - notes/whey_streams.qmd
+      - notes/CFF_principle.qmd
+      - notes/appendix.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/edibotopic/ProFracLab
+          - text: Report a Bug
+            url: https://github.com/edibotopic/ProFracLab/issues
+
+format:
+  html:
+    theme: 
+      light: [theme.scss]
+      dark: [cyborg]

@@ -1,0 +1,65 @@
+---
+title: Isoelectric Precipitation 
+slide-format: revealjs
+css: ../styles.css
+execute:
+  echo: false
+search: true
+---
+
+One of the factors that maintain casein micelles in a suspended form in milk
+is their net negative charge (i.e., *"like charges repel"*).
+As milk is acidified the
+proportion of negative charges decrease and the proportion of positive charges in crease.
+At `pH 4.6` milk is considered to have a net charge of zero, meaning
+there is a balance of the two types of charges.
+If these conditions are met micelles can no longer remain physically apart and tend to interact, gradually forming larger particles and eventually a coagulum.
+There are many terms used
+for this observed phenomenon, such as ’clotting’, ’gelling’ and ’coagulation’ but they are all effectively synonymous, meaning the formation of a cohesive macroscopic mass.
+
+<div>
+```{=html}
+<iframe class="video-embed" src=../vids/iso_elec_c1.mp4></iframe>
+```
+
+The gelled material can then be easily separated from the liquid whey
+using coarse filters or decanter centrifuges.
+The two materials that results are **acid casein** and **acid whey**. After the whey is removed and the casein washed a fairly pure protein ingredient is collected; however, in many cases it isn’t
+very useful because of its insolubility.
+Making this material soluble again is easy, at least in principle.
+If we acidified the system to reduce the negative charge we just have to alkalise the system to restore the negative charge.
+This is how acid casein — an insoluble ingredient — is turned into caseinate,
+a soluble ingredient.
+One challenge with this part of the process is the solubilisation in alkali is very slow, as the alkali must diffuse through the gel particles.
+What helps in this case is a high input of kinetic energy and an
+increase in the surface area of the particles - this is achieved with high-shear mixing.
+
+::: {.callout-tip}
+
+## Acid Casein & Sodium Caseinate at Home
+
+It is possible to make acid casein quiet easily.
+The material that is formed is similar to a fresh cheese.
+
+1. Add 400 mL of skim milk to a pot and heat until boil
+2. Take milk off heat for 1-2 minutes or until T = 50 ◦ C
+3. Add 1-2 tablespoons of lemon juice or vinegar
+4. Stir acidified milk until visual clotting is apparent
+5. Filter clotted milk through cheesecloth or a colander
+6. Pour water over recovered material to wash out impurities
+7. Weigh the casein and whey. Make observations about their prop-
+erties.
+8. Add about 1-2 g of baking soda to 100 mL of water (i.e., a few
+”pinchfuls”)
+9. Take two 1 g sub-samples of acid casein: add one to the baking
+soda solution and one to water
+10. Vigorously mix the resultant mixtures and observe how
+(un)successfully they dissolve
+:::
+
+A process flow diagram for the production of acid casein and sodium caseinate is shown below:
+
+<div>
+```{=html}
+<video controls class="video-embed" src=../vids/ACN_pfd_c1.mp4></video>
+```

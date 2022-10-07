@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Protein Fractionation Lab - Membrane Separation</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../notes/appendix.html" rel="next">
+<link href="../notes/whey_streams.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar floating fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Membrane Separation</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Protein Fractionation Lab</a> 
+        <div class="sidebar-tools-main">
+    <a href="" title="" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-github"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/edibotopic/ProFracLab">
+          Source Code
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/edibotopic/ProFracLab/issues">
+          Report a Bug
+          </a>
+        </li>
+    </ul>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Overview</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notes/ACN_principle.html" class="sidebar-item-text sidebar-link">Isoelectric Precipitation</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notes/RCN_principle.html" class="sidebar-item-text sidebar-link">Enzymatic Precipitation</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notes/whey_streams.html" class="sidebar-item-text sidebar-link">Note on Whey Streams</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notes/CFF_principle.html" class="sidebar-item-text sidebar-link active">Membrane Separation</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notes/appendix.html" class="sidebar-item-text sidebar-link">Appendix</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Membrane Separation</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Virtually all of the proteins present in either milk or whey can be recovered using ultrafiltration. The ’molecular weight cut-off’ (MWCO) determines which molecules will be blocked from passing through the membrane. The smallest protein in both cases is α−lactalbumin, which has a MW of 14 kDa. It is thus sufficient to select a MWCO that will ensure that this smallest protein does not permeate, as it follows logically that the larger proteins will not permeate if this condition is met. In the dairy industry the term ”ultrafiltration” can often be taken to refer to a filtration process in which all of the proteins are recovered.</p>
+<p>There are three streams to consider during any filtration process: the feed, retentate and permeate. During filtration the feed is separated into the retentate and permeate. In a benchtop process the retentate is commonly recirculated back to the feed, which becomes increasingly concentrated over time. As permeate volume (<span class="math inline">\(P_V\)</span>) increases the feed volume (<span class="math inline">\(F_V\)</span>) decreases. Typically there is a target volume concentration factor (<span class="math inline">\(VCF\)</span>) that can be used to estimate the increase in protein content in the feed but also to set a limit on the process:</p>
+<p><span class="math display">\[VCF = \frac{F_v}{F_v - P_v}\]</span></p>
+<p>Hence, if you start with <span class="math inline">\(1 \ L\)</span> of feed, generate <span class="math inline">\(670 \ mL\)</span> of permeate you will have achieved a <span class="math inline">\(VCF\)</span> of <span class="math inline">\(3×\)</span>. If the starting protein concentration was <span class="math inline">\(3\%\)</span> the concentration afterwards would be roughly <span class="math inline">\(3 \ × \ 3 = 9\)</span>. An efficient filtration process is one that has a high permeate flux that is sustainable over time. Flux is the flow-rate of permeate per unit of mem- brane area and typically has the units <span class="math inline">\(L \ m^{−2} \ h^{−1}\)</span>.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Converting Flow Data
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Consider that you have measured <span class="math inline">\(10 \ mL\)</span> of permeate in <span class="math inline">\(30 \ seconds\)</span> and the membrane area used was <span class="math inline">\(0.1 \ m^2\)</span>:</p>
+<p><strong><span class="math inline">\(mL\)</span> to <span class="math inline">\(L\)</span></strong> : 10 ÷ 1000 = 0.01</p>
+<p><strong><span class="math inline">\(L \ 30s^{−1}\)</span> to <span class="math inline">\(L \ h^{−1}\)</span></strong> : 0.01 × 2 × 60 = 1.2</p>
+<p><strong><span class="math inline">\(L h^{−1}\)</span> to <span class="math inline">\(L \ m^{−2} \ h^{−1}\)</span></strong> : 1.2 ÷ 0.1 = 12</p>
+<p>The answer is:</p>
+<p><span class="math display">\[12 \ L \ m^{-2} \ h^{-1}\]</span></p>
+</div>
+</div>
+<div class="callout callout callout-style-simple no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Permeate Viscosity
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The viscosity of permeate generated during the ultrafiltration of milk or whey is low (similar to water). However, minor changes in permeate viscosity associated with temperature can have a significant effect on permeate flux.</p>
+<div>
+<video autoplay="" loop="" class="video-embed" src="../vids/low_viscosity.mp4"></video>
+</div>
+</div>
+</div>
+<p>Most membrane operations in the dairy industry involve cross-flow filtration, which is distinct from the dead-end filtration that you are familiar with from your laboratories. In the lab when you are normally filtering a solution the feed liquid flows perpendicularly towards the membrane surface (think about it for a moment). While this works fine in the lab for small solutions it is often impractical at a commercial scale. The reason is fouling, the deposition of material on the surface of the membrane over time, which reduces the rate at which the liquid permeates the membrane and, thus, the speed of the process. In cross-flow filtration the feed liquid flows across or parallel to the membrane surface. If the pump is set to a value that ensures that the feed liquid is flowing with a high velocity then material that would normally deposit on the membrane surface will be continuously removed. This works pretty well and gives far superior performance to perpendicular flow; however, it isn’t perfect and gradual fouling is still a problem, making this an ongoing issue in dairy processing. When attempting to develop strategies to maximise permeate flux it is useful to consider Darcy’s equation:</p>
+<p><span class="math display">\[J = \frac{TMP}{\mu \cdot R}\]</span></p>
+<p><span class="math inline">\(J\)</span> signifies flux (probably because <span class="math inline">\(F\)</span> is taken), <span class="math inline">\(TMP\)</span> stands for <strong>T</strong>rans <strong>M</strong>embrane <strong>P</strong>ressure, <span class="math inline">\(µ\)</span> for permeate viscosity and <span class="math inline">\(R\)</span> for hydraulic resis- tance. To generate permeate a pressure drop must exist from the feed-side to the permeate-side, which is done by closing a valve on the feed-side at the retentate line. Ideally, the highest TMP should be chosen in the pressure- dependant region of the J−TMP curve; this means that if you adjusted the pressure in stepwise increments you would find a linear region that eventually transitions into a plateau - the idea is to select the TMP before that plateau is reached, as the plateau is associated with high degrees of fouling. Permeate viscosity is easy to manipulate. Most liquids decrease in viscosity as temperature increases, as the increased thermal energy is converted into kinetic energy that allows the molecules to move with more freedom. This is true unless a qualitative change occurs, such as when proteins aggregate to form larger structures that impart different viscosity properties. For these reasons a temperature ≈ 50°C has been common for filtration processes in the dairy industry (not too low, not too high). Declines in flux during filtration are common and typically caused by fouling of the membrane surface. The results in an increase in hydraulic resistance (<span class="math inline">\(R\)</span> in Darcy’s equation). Fouling is a complex phenomenon which can be simply understood as the deposition of molecules at the surface of the membrane and, in some cases, inside the membrane pores themselves. An advantage of cross-flow filtration is that the feed material moves across the membrane surface during pumping, which contributes to the continuous removal of the fouling layer during filtration - this is not perfect, however.</p>
+<div class="callout callout callout-style-simple no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Retentate Viscosity
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Retentate viscosity can increase substantially during ultrafiltration due to the concentration of protein. The increase viscosity can reduce cross-flow velocity and turbulence, which can contribute to fouling.</p>
+<div>
+<video autoplay="" loop="" class="video-embed" src="../vids/high_viscosity.mp4">
+</video></div>
+</div>
+</div>
+<p>A somewhat counter-intuitive finding in recent years is that operating filtration plants at close to refrigeration temperatures can have benefits for ensuring more sustainable flux values. The mechanism behind this is unclear at this point but what is apparent is that sacrificing the high initial fluxes associated with warm filtration can result in longer process runs, less down-time and reduced cleaning costs. It is not all good news, however, as larger pumps may be required to handle the more viscous feed material and there may also be associated refrigeration costs. Thus, there are trade-offs.</p>
+<p>An interactive 3D model of the benchtop filtration system used at UCC can be found below:</p>
+<div class="sketchfab-embed-wrapper">
+<iframe style="width: 100%; height: 350px" title="Membrane Filtration Device (v0.1)" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" src="https://sketchfab.com/models/e65e9fd49e8b47f7a2a117d3135e7297/embed?ui_theme=dark&amp;dnt=1"> </iframe>
+</div>
+<p>A real-life demonstration can also be found on Canvas.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Anti-fouling
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Membrane fouling is a continued problem in the dairy industry. Scientists and engineers are investigating multiple approaches to minimise this phenomenon, such as:</p>
+<ul>
+<li>Spacer meshes that promote internal turbulence</li>
+<li>Membrane polymers that repel depositing molecules</li>
+<li>Ultrasonicators that actively disrupt fouled material</li>
+<li>Low temperature operation for longer run times</li>
+</ul>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../notes/whey_streams.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Note on Whey Streams</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../notes/appendix.html" class="pagination-link">
+        <span class="nav-page-text">Appendix</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">Copyright 2022, Shane Crowley</div>
+  </div>
+</footer>
+
+
+
+</body></html>
