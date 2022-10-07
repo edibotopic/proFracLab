@@ -19,9 +19,8 @@ for this observed phenomenon, such as ’clotting’, ’gelling’ and ’coagu
 
 <div>
 ```{=html}
-<iframe class="video-embed" src=../vids/iso_elec_c1.mp4></iframe>
+<iframe class="video-embed" src="../vids/iso_elec_c1.mp4"></iframe>
 ```
-
 The gelled material can then be easily separated from the liquid whey
 using coarse filters or decanter centrifuges.
 The two materials that results are **acid casein** and **acid whey**. After the whey is removed and the casein washed a fairly pure protein ingredient is collected; however, in many cases it isn’t
@@ -59,7 +58,6 @@ soda solution and one to water
 
 A process flow diagram for the production of acid casein and sodium caseinate is shown below:
 
-<div>
 ```{=html}
-<video controls class="video-embed" src=../vids/ACN_pfd_c1.mp4></video>
+<video controls="true" class="video-embed" src="https://github.com/edibotopic/proFracLab/raw/master/vids/ACN_pfd_c1.mp4"></video>
 ```
