@@ -65,7 +65,7 @@ However, minor changes in permeate viscosity associated with temperature can hav
 
 <div>
 ```{=html}
-<video autoplay loop class="video-embed" src="https://github.com/edibotopic/proFracLab/raw/master/vids/low_viscosity.mp4"></video>
+<video autoplay loop class="video-embed" src="https://github.com/edibotopic/proFracLab/raw/master/vids/low_viscosity_c.mp4"></video>
 ```
 </div>
 
@@ -115,7 +115,7 @@ The increase viscosity can reduce cross-flow velocity and turbulence, which can 
 
 <div>
 ```{=html}
-<video autoplay loop class="video-embed" src="https://github.com/edibotopic/proFracLab/raw/master/vids/high_viscosity.mp4"></iframe>
+<video autoplay loop class="video-embed" src="https://github.com/edibotopic/proFracLab/raw/master/vids/high_viscosity_c.mp4"></iframe>
 ```
 </div>
 
