@@ -25,7 +25,7 @@ for this observed phenomenon, such as ’clotting’, ’gelling’ and ’coagu
 
 <div>
 ```{=html}
-<iframe class="video-embed" src="../vids/iso_elec_c1.mp4"></iframe>
+<video controls="true" class="video-embed" src="https://github.com/edibotopic/proFracLab/raw/master/vids/iso_elec_c1.mp4"></video>
 ```
 The gelled material can then be easily separated from the liquid whey
 using coarse filters or decanter centrifuges.
