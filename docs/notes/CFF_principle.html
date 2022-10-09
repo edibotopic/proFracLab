@@ -38,11 +38,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -168,6 +168,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<iframe style="width:100%; height:400px; overflow: hidden" scrolling="no" src="../frames/index.html"></iframe>
 <p>Virtually all of the proteins present in either milk or whey can be recovered using ultrafiltration. The ’molecular weight cut-off’ (MWCO) determines which molecules will be blocked from passing through the membrane. The smallest protein in both cases is α−lactalbumin, which has a MW of 14 kDa. It is thus sufficient to select a MWCO that will ensure that this smallest protein does not permeate, as it follows logically that the larger proteins will not permeate if this condition is met. In the dairy industry the term ”ultrafiltration” can often be taken to refer to a filtration process in which all of the proteins are recovered.</p>
 <p>There are three streams to consider during any filtration process: the feed, retentate and permeate. During filtration the feed is separated into the retentate and permeate. In a benchtop process the retentate is commonly recirculated back to the feed, which becomes increasingly concentrated over time. As permeate volume (<span class="math inline">\(P_V\)</span>) increases the feed volume (<span class="math inline">\(F_V\)</span>) decreases. Typically there is a target volume concentration factor (<span class="math inline">\(VCF\)</span>) that can be used to estimate the increase in protein content in the feed but also to set a limit on the process:</p>
 <p><span class="math display">\[VCF = \frac{F_v}{F_v - P_v}\]</span></p>
@@ -363,7 +364,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  let localAlternateSentinel = 'alternate';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 

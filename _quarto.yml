@@ -28,5 +28,5 @@ website:
 format:
   html:
     theme: 
-      light: [theme.scss]
       dark: [cyborg]
+      light: [theme.scss]
