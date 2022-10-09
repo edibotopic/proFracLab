@@ -7,9 +7,9 @@ execute:
 ---
 
 Foods like milk are complex mixtures of many different components. For
-product applications it is often desirable to fractionate mixtures into their
+product applications it is often desirable to `fractionate` mixtures into their
 components so that they can ultimately be used as ingredients.
-For both their bio-functional (e.g., nutrition) and techno-functional (e.g.,
+For both their *bio-functional* (e.g., nutrition) and *techno-functional* (e.g.,
 stabilisation) attributes proteins are an attractive target for many separation
 processes. 
 
@@ -20,8 +20,8 @@ processes.
 
 It has been common practice in the dairy industry for many years to fractionate caseins from liquid whey and, more recently, to further
 fractionate liquid whey into whey proteins.
-In the lecture and practical that accompany these notes several different methods for fractionating dairy proteins — one chemical, one
-biochemical and one physical — will be discussed. The chemical process exploits the fact that casein micelles coagulate in acidic conditions, the biochemical
+In the lecture and practical that accompany these notes several different methods for fractionating dairy proteins — one `chemical`, one
+`biochemical` and one `physical` — will be discussed. The chemical process exploits the fact that casein micelles coagulate in acidic conditions, the biochemical
 process takes advantage of the tendency of casein to coagulate in the presence
 of the rennet, while the physical process exploits the relative differences in
 size between molecules in milk and whey.
@@ -30,7 +30,7 @@ size between molecules in milk and whey.
 
 **Fractionation** is the technical term often used to the separation of one component relative to other components.
 
-This is distinct from **concentration**, which typically means concentration of all components by removal of water.
+This is distinct from **concentration**, which typically means concentration of all (solid) components by removal of water.
 
 :::
 
