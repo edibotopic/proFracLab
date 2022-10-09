@@ -7,8 +7,14 @@ execute:
 search: true
 ---
 
-One of the factors that maintain casein micelles in a suspended form in milk
-is their net negative charge (i.e., *"like charges repel"*).
+<div>
+```{=html}
+<video autoplay loop class="video-embed" src="https://github.com/edibotopic/proFracLab/raw/master/vids/ACN_c.mp4"></iframe>
+```
+</div>
+
+One of the factors that maintain `casein micelles` in a suspended form in milk
+is their *net negative charge* (i.e., *"like charges repel"*).
 As milk is acidified the
 proportion of negative charges decrease and the proportion of positive charges in crease.
 At `pH 4.6` milk is considered to have a net charge of zero, meaning
@@ -26,10 +32,10 @@ using coarse filters or decanter centrifuges.
 The two materials that results are **acid casein** and **acid whey**. After the whey is removed and the casein washed a fairly pure protein ingredient is collected; however, in many cases it isn’t
 very useful because of its insolubility.
 Making this material soluble again is easy, at least in principle.
-If we acidified the system to reduce the negative charge we just have to alkalise the system to restore the negative charge.
-This is how acid casein — an insoluble ingredient — is turned into caseinate,
+If we acidified the system to reduce the negative charge we just have to `alkalise` the system to restore the negative charge.
+This is how acid casein — an insoluble ingredient — is turned into **caseinate**,
 a soluble ingredient.
-One challenge with this part of the process is the solubilisation in alkali is very slow, as the alkali must diffuse through the gel particles.
+One challenge with this part of the process is that the solubilisation in alkali is very slow, as the alkali must diffuse through the gel particles.
 What helps in this case is a high input of kinetic energy and an
 increase in the surface area of the particles - this is achieved with high-shear mixing.
 

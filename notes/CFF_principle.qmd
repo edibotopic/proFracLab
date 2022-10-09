@@ -7,6 +7,10 @@ execute:
 search: true
 ---
 
+```{=html}
+<iframe style="width:100%; height:400px; overflow: hidden" scrolling="no" src="../frames/index.html"></iframe>
+```
+
 Virtually all of the proteins present in either milk or whey can be recovered using ultrafiltration.
 The ’molecular weight cut-off’ (MWCO) determines which molecules will be blocked from passing through the membrane.
 The smallest protein in both cases is α−lactalbumin, which has a MW of

@@ -15,7 +15,13 @@ The next practical is dedicated to the principles underlying the rennet coagulat
 ingredient development will be provided here.
 :::
 
-The basic process for making rennet casein broadly resembles that of acid
+<div>
+```{=html}
+<video autoplay loop class="video-embed" src="https://github.com/edibotopic/proFracLab/raw/master/vids/RCN_c.mp4"></iframe>A
+```
+</div>
+
+The basic process for making *rennet casein* broadly resembles that of acid
 casein.
 Both could be described `in general` as follows:
 
@@ -26,8 +32,8 @@ Both could be described `in general` as follows:
 - Washing
 - Drying
 
-The coagulation in this case relies on the proteolytic activity of rennet, or more specifically chymosin, the main proteolytic enzyme present in rennet.
-When milk is renneted the $\kappa$-casein at the surface of the casein micelles is hydrolysed, releasing the hydrophilic fragment of this casein molecule into the serum phase.
+The coagulation in this case relies on the `proteolytic` activity of rennet, or more specifically **chymosin**, the main proteolytic enzyme present in rennet.
+When milk is renneted the $\kappa$-casein at the surface of the casein micelles is hydrolysed, releasing the `hydrophilic fragment` of this casein molecule into the serum phase.
 This phenomenon is more rapid at a temperature of 32°C because this is the optimal temperature of the enzymes involved.
 Incubation at this temperature for about 15−20 minutes is required to release around 80% of the $\kappa$-casein into the serum, which is sufficient for destabilisation and coagulation of the casein.
 
@@ -49,7 +55,7 @@ There is no equivalent to sodium caseinate for rennet casein - alkalising rennet
 |[Sodium]   | low   | low   | high   |
 |Application   | precursor   | cheese analogues   | various   |
 
-Rennet casein is used as is in the manufacture of cheese analogues, but this application does require solubilisation to be carried out in a different manner.
+Rennet casein is used as is in the manufacture of `cheese analogues`, but this application does require solubilisation to be carried out in a different manner.
 In analogue cheese dissolved rennet casein functions to emulsify oil droplets and form a cohesive cheese-like mass.
 To solubilise rennet casein so-called ”emulsifying salts” are used.
 This term is a bit confusing, as the salts do not emulsify the casein but rather modify the casein so that the casein can function as an emulsifier.

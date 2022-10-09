@@ -22,3 +22,6 @@ search: true
 If you have any questions about the material please contact:
 
 [shane.crowley@ucc.ie](mailto: shane.crowley@ucc.ie)
+
+Hosting the notes on a website like this is a new experiment for me.
+If you have any comments on this approach to notes please let me know 👍.
