@@ -7,9 +7,12 @@ execute:
 search: true
 ---
 
+<div style="position: relative; width: 100%; height: auto; overflow: hidden; -webkit-overflow-scrolling: touch;">
 ```{=html}
-<iframe style="width:100%; height:400px; overflow: hidden" scrolling="no" src="../frames/index.html"></iframe>
+<iframe style="width:100%; height:400px;" src="../frames/index.html"></iframe>
 ```
+</div>
+</br>
 
 Virtually all of the proteins present in either milk or whey can be recovered using ultrafiltration.
 The ’molecular weight cut-off’ (MWCO) determines which molecules will be blocked from passing through the membrane.
