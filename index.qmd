@@ -23,14 +23,14 @@ fractionate liquid whey into whey proteins.
 In the lecture and practical that accompany these notes several different methods for fractionating dairy proteins — one `chemical`, one
 `biochemical` and one `physical` — will be discussed. The chemical process exploits the fact that casein micelles coagulate in acidic conditions, the biochemical
 process takes advantage of the tendency of casein to coagulate in the presence
-of the rennet, while the physical process exploits the relative differences in
+of rennet, while the physical process exploits the relative differences in
 size between molecules in milk and whey.
 
 ::: {.callout-note}
 
-**Fractionation** is the technical term often used to the separation of one component relative to other components.
+**Fractionation** is the technical term often used for the separation of one component relative to other components.
 
-This is distinct from **concentration**, which typically means concentration of all (solid) components by removal of water.
+This is distinct from **concentration**, which typically means concentration of **all** (solid) components by removal of water.
 
 :::
 
