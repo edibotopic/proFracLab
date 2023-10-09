@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Protein Fractionation Lab"
-  page-footer: "Copyright 2022, Shane Crowley" 
+  page-footer: "Copyright 2023, Shane Crowley" 
   reader-mode: false
   page-navigation: true
   sidebar:
@@ -28,5 +28,5 @@ website:
 format:
   html:
     theme: 
-      dark: [cyborg]
       light: [theme.scss]
+      dark: [cyborg]
