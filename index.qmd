@@ -13,10 +13,20 @@ For both their *bio-functional* (e.g., nutrition) and *techno-functional* (e.g.,
 stabilisation) attributes proteins are an attractive target for many separation
 processes. 
 
-<div>
-```{=html}
+::: {.callout-tip}
+## Wholes and Fractions
+
+In the simple animation below, consider a system with two components — one 
+represented by a triangle and one by a square.
+When we analyse food systems we often investigate them as a whole, drawing 
+a circle around both components (e.g., compositional analysis).
+It is often useful to separate the components so that they can be 
+used for specific purposes (e.g., membrane filtration).
+Typically this involves exploiting some difference between the components
+(e.g., here they have different shapes).
+
 <iframe class="video-embed" src=./vids/ObjectsSurround.mp4></iframe>
-```
+:::
 
 It has been common practice in the dairy industry for many years to fractionate caseins from liquid whey and, more recently, to further
 fractionate liquid whey into whey proteins.
